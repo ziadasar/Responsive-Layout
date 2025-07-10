@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Responsive Layout</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Desktop  -->
+<div class="grid-container d-none d-md-grid">
+  <div class="header d-flex align-items-center justify-content-center">Header</div>
+  <div class="sidebar d-flex align-items-center justify-content-center">Sidebar</div>
+  <div class="main d-flex align-items-center justify-content-center">Main</div>
+  <div class="widget d-flex align-items-center justify-content-center">Widget</div>
+  <div class="stats d-flex align-items-center justify-content-center">Statistics</div>
+  <div class="footer">Footer</div>
+</div>
+
+
+  
+<!-- Mobile  -->
+<div class="container-fluid d-block d-md-none text-center full-height-mobile d-flex flex-column">
+  <div class="section bg-primary text-white">Header</div>
+  <div class="section bg-warning">Sidebar</div>
+  <div class="section bg-success">Main</div>
+  <div class="section bg-danger">Widget</div>
+  <div class="section bg-info">Statistics</div>
+  <div class="section bg-primary text-white">Footer</div>
+</div>
+
+
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script> -->
+</body>
+</html>
