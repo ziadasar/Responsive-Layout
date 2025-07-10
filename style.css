@@ -33,7 +33,7 @@
       "sidebar widget stats"
       "footer footer footer";
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto 1fr 1fr auto;
+    grid-template-rows: 10% 1fr 1fr 10%;
     gap: 10px;
     height: 100vh;
     padding: 10px;
@@ -41,7 +41,7 @@
   
   .header {
     grid-area: header;
-    background-color: #00bcd4;
+    background-color: var(--bs-primary);
   }
   
   .sidebar {
@@ -72,3 +72,7 @@
     padding: 10px;
   }
   
+  .active-hover {
+    border: 2px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
