@@ -3,23 +3,8 @@
   /* overflow: hidden; */
 }
 
-.full-height-mobile .section {
-  flex: 1 1 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 10px;
-  /* padding: 10px 10px; */
-  /* gap: 	10px; */
-}
-/* 
-.footer-mobile {
-  flex: 0 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px 10px;
-} */
+
+
 
   .full-height-desktop {
     height: 100vh;
@@ -29,7 +14,7 @@
     display: grid;
     grid-template-areas:
       "header header header"
-      "sidebar main main"
+      "sidebar main main" 
       "sidebar widget stats"
       "footer footer footer";
     grid-template-columns: 1fr 1fr 1fr;
@@ -42,26 +27,39 @@
   .header {
     grid-area: header;
     background-color: var(--bs-primary);
+    text-align: center;
+    /* padding: 10px; */
+    
+    
   }
   
   .sidebar {
     grid-area: sidebar;
     background-color: #ffc107;
+    text-align: center;
+    /* padding: 200px; */
+    
   }
   
   .main {
     grid-area: main;
     background-color: #4caf50;
+    text-align: center;
+    /* padding: 100px; */
   }
   
   .widget {
     grid-area: widget;
     background-color: #f44336;
+    text-align: center;
+    /* padding: 100px; */
   }
   
   .stats {
     grid-area: stats;
     background-color: #03a9f4;
+    text-align: center;
+    /* padding: 100px; */
   }
   
   .footer {
@@ -69,10 +67,15 @@
     background-color: #3f51b5;
     color: white;
     text-align: center;
-    padding: 10px;
+    /* padding: 10px; */
   }
   
   .active-hover {
     border: 2px solid black;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+
+  .container-height-mobile{
+    height: 16.66%;
   }
