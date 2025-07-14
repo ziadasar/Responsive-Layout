@@ -79,3 +79,38 @@
   .container-height-mobile{
     height: 16.66%;
   }
+
+  /* Default (large screens) */
+.header-row {
+  height: 10%;
+}
+
+.content-row {
+  height: 80%;
+}
+
+.footer-row {
+  height: 10%;
+}
+.inner-content-row {
+  height: 100%;
+}
+
+/* Medium screens */
+
+
+/* Small screens */
+@media (max-width: 768px) {
+  .header-row {
+    height: 16.6%;
+  }
+
+  .content-row {
+    height: 66.4%;
+  }
+
+  .footer-row {
+    height: 16.6%;
+  }
+}
+
