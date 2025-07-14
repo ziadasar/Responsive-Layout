@@ -1,13 +1,13 @@
 $(document).ready(function () {
   // Change color on click
-  $(".row, col-12,.header, .footer, .sidebar, .widget, .stats, .main").on("click", function () {
+  $(".header, .footer, .sidebar, .widget, .stats, .main").on("click", function () {
     $(this).css("background-color", getRandomColor());
   });
 
   
 
   // Highlight on hover
-  $(".row, col-12,.header, .footer, .sidebar, .widget, .stats, .main").hover(
+  $(".header, .footer, .sidebar, .widget, .stats, .main").hover(
     function () {
       $(this).addClass("active-hover");
     },
